@@ -1,7 +1,7 @@
 node {
     
      stage('git clone') {
-     git 'https://github.com/rajasekhars12/mh.git'
+     git 'https://github.com/mahipal0987/ks'
    }
    stage('clean') {
       sh 'mvn clean'
